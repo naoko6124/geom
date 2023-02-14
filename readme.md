@@ -28,7 +28,7 @@ the header is constitued by 16 bytes divided in 4 sections of 4 bytes
 
 the info section is a sequence of 16 bytes per data
 - the first eight are the type which can be either VERTEX or INDEX
-- the next 8 bytes are the offset and the the length of the respective buffer, 4 bytes each.
+- the next 8 bytes are the offset and the the length of the buffer, 4 bytes each
 
 | 0x56 | 0x45 | 0x52 | 0x54 | 0x45 | 0x58 | 0x20 | 0x20 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
